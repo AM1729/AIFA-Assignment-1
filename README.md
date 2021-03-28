@@ -3,8 +3,8 @@
 # Electric Vehicle Problem
 ### There is a pdf along with the source code where we have shown how we approached the problem and what assumptions are made.
 
-This is a ipynb file.
-When you run the file in jupyter notebook you will be asked to enter some data as follows:
+This is a python file.
+When you run the file, you will be asked to enter some data as follows:
 You will be asked to enter the number of EVs.
 For each EV the following information should be provided -
 (a) Sr - source node
@@ -16,6 +16,7 @@ For each EV the following information should be provided -
 (g) sr - average traveling speed (distance per unit time).
 in the same order as specified above.
 
+The number of cities should also be provided.
 There are two helper functions-
 a). all_pairs_shortest_path
         parameter: adjacency matrix of 'n' cities.
